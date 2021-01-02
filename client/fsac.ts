@@ -22,6 +22,10 @@ const fsac_pkgs: ILanguageServerPackages = {
         executable: "fsautocomplete.dll",
         platformPath: "fsautocomplete.netcore.zip"
     },
+    "osx-arm64": {
+        executable: "fsautocomplete.dll",
+        platformPath: "fsautocomplete.netcore.zip"
+    },
 }
 
 const fsac_repo: LanguageServerRepository = {
